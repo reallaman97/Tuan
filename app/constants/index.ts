@@ -154,82 +154,36 @@ const skills = {
 
 const experiences = [
   {
-    title: "Senior Full Stack Engineer",
+    title: "Senior .Net Full Stack Engineer",
     company_name: "HCLTech",
     icon: "/company/hcltech.ico",
     iconBg: "#383E56",
-    date: "03/2022 -  03/2025",
+    date: "09/2021 -  current",
     points: [
-      "Project: AI-Driven Government Procurement & Bidding Platform",
-      "Engineered a scalable microservices architecture using Python (Django, FastAPI, Flask) for \
-government procurement workflows, achieving 99.99% uptime and processing 500+ daily \
-requests.",
-      "Built a GraphQL layer that allowed fine-grained queries over large sets of solicitation data and \
-agency documents, reducing over-fetching and boosting performance by 30%",
-      "Implemented WebSocket-based alerts for newly published opportunities, approaching deadlines, \
-and updates on proposal evaluations, providing users with instant, actionable insights",
-      "Centralized government contracting data by migrating 100,000+ records into MongoDB, and \
-automated real-time updates from government sources via Apache Kafka, ensuring the system \
-displayed the most current information.",
-      "Established role-based access control (RBAC) utilizing OAuth2 and JWT authentication protocols; \
-mitigated potential data breaches by 65% and ensured compliance with industry security \
-standards",
-      "Implemented rate limiting and API throttling using Redis, supporting 50+ client applications \
-concurrently while preventing denial-of-service attacks, improving overall system reliability and \
-availability.",
+      "Project: AI-Driven Contract Analysis Platform",
+      "Developed an advanced backend platform powered by AI and NLP technologies to automatically analyze, summarize, and flag potential legal risks in business contracts. It integrates with multiple third-party services and provides automated reporting and secure client portals.",
     ],
   },
   {
-    title: "Senior Software Engineer",
-    company_name: "Netflix, Inc.",
-    icon: "/company/nficon2023.ico",
+    title: "Full Stack Developer",
+    company_name: "Cognizant",
+    icon: "/company/cog.ico",
     iconBg: "#E6DEDD",
-    date: "09/2018 - 02/2022",
+    date: "06/2017 - 08/2021",
     points: [
-      "Project: Fintech Application",
-      "Pioneered high-throughput backend services in Java (Spring Boot) incorporating gRPC and\
-Apache Kafka, processing 5,000+ transactions per second while shrinking average latency to\
-85ms.",
-      "Optimized Java Spring Boot microservices, decreasing latency in critical transaction workflows\
-to an average of 85ms while handling peak loads of 7,000 transactions per second.",
-      "Integrated AWS Lambda serverless functions into application architecture, reducing\
-infrastructure costs by 30% and decreasing average function execution time by 50ms.",
-      "Integrated MongoDB and Oracle with read replicas for high-availability storage.",
-      "Engineered real-time dashboards within Splunk that visualized system performance, pinpointing\
-      bottlenecks, and improved incident response times by 40% while monitoring 50+ transaction\
-      pipelines.",
-      "Automated infrastructure provisioning with Terraform, reducing setup time by 60%.",
-      "Fortified system security by enforcing role-based access control across 5 key applications and\
-      enabled AES-256 encryption, exceeding regulatory requirements for financial data protection and\
-      compliance.",
-      "Spearheaded the creation of a fraud detection system using event sourcing that reduced false\
-      positives for customers flagged for fraud, decreasing manual review workload by 40 hours a week.",
+      "Project: Healthcare Appointment & Record Management System",
+      "Developed a cloud-native platform for hospitals and clinics to manage patient appointments, real-time availability, digital records, and third-party integrations like Zoom for telemedicine, Stripe for billing, and Azure AD for secure access control.",
     ],
   },
   {
-    title: "Software Developer",
-    company_name: "The Walt Disney",
-    icon: "/company/disney.png",
+    title: "Front-end Developer",
+    company_name: "Globant",
+    icon: "/company/3.png",
     iconBg: "#E6DEDD",
-    date: "06/2017 - 09/2018",
+    date: "10/2015 - 05/2017",
     points: [
-      "Project: Microservices SaaS Dashboard",
-      "Accelerated core API enhancements with Node.js (NestJS) following senior engineer guidance;\
-elevated API test coverage scores by 40% and decreased server response times by 150ms, as\
-measured by Datadog",
-      "Fashioned responsive UIs with Tailwind CSS and React, resolving 80% of cross-browser\
-compatibility issues and boosting average page load speed by 40% on mobile devices.",
-      "Forged scalable data architecture using SQLite for local development environments and\
-Snowflake for analytical workloads, enabling 10+ engineers to conduct efficient data analysis and\
-reporting.",
-      "•Orchestrated microservice communication using Apache Kafka, achieving 99.99% uptime, and\
-enhanced application responsiveness by optimizing Redis cache invalidation policies during peak\
-traffic.",
-      "•Orchestrated infrastructure-as-code using Terraform, automating provisioning of 50+ virtual\
-machines, and slashing deployment times by 60%, while ensuring adherence to security protocols\
-and infrastructure compliance.",
-      "Actively influenced in code reviews with senior developers and contributed to documentation and\
-best practice sharing sessions.",
+      "Project: Interactive Learning Management System",
+      "Designed and built a dynamic LMS for schools and training institutions with real-time lesson boards, quizzes, assignment tracking, live sessions, and analytics dashboards. The app blends a Angular frontend with a .NET Core backend and integrates third-party tools like Zoom, Firebase, and Power BI.",
     ],
   },
 ];
@@ -259,24 +213,19 @@ const projects: {
 }[] = [
   {
     name: "HeathTap",
-    description:
-      "Developed a visually appealing and user-friendly website using React.",
+    description: "--",
     tags: [
       {
-        name: "React",
+        name: ".NET",
         color: "blue-text-gradient",
       },
       {
-        name: "MUI",
+        name: "React",
         color: "green-text-gradient",
       },
       {
-        name: "Django",
+        name: "Azure",
         color: "orange-text-gradient",
-      },
-      {
-        name: "AWS",
-        color: "pink-text-gradient",
       },
     ],
     image: "/projectimg/healthtap.png",
@@ -285,8 +234,7 @@ const projects: {
   },
   {
     name: "Sierra Structures",
-    description:
-      "Developed a visually appealing and user-friendly website using Angular.",
+    description: "--",
     tags: [
       {
         name: "ASP.NET",
@@ -307,8 +255,7 @@ const projects: {
   },
   {
     name: "Chirayu",
-    description:
-      "Developed a visually appealing and user-friendly website using Next.",
+    description: "--",
 
     tags: [
       {
@@ -326,8 +273,7 @@ const projects: {
   },
   {
     name: "The Best Trading Platform",
-    description:
-      "Developed a visually appealing and user-friendly Trading platform using Laravel",
+    description: "--",
     tags: [
       {
         name: "PHP",
@@ -352,8 +298,7 @@ const projects: {
   },
   {
     name: "Range Trainer",
-    description:
-      "Developed the most precise GTO solves in the industry using Next",
+    description: "--",
 
     tags: [
       {

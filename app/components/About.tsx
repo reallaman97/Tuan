@@ -54,13 +54,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-[3xl] leading-[30px]"
       >
-        Experienced Software & Machine Learning Engineer with a demonstrated
-        history of working in the venture technology industry. Skilled in
-        application & API development, cloud technologies, AI. I have honed
-        discipline, teamwork, and resilience, qualities that strongly enhance my
-        academic pursuits. My journey, from developing efficient applications to
-        nurturing budding coders, reflects my commitment to excellence in both
-        technical and leadership spheres.
+        Experienced .NET Software Engineer with a demonstrated history of
+        working in the venture technology industry. Skilled in application & API
+        development, cloud technologies, AI. I have honed discipline, teamwork,
+        and resilience, qualities that strongly enhance my academic pursuits. My
+        journey, from developing efficient applications to nurturing budding
+        coders, reflects my commitment to excellence in both technical and
+        leadership spheres.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
