@@ -52,8 +52,7 @@ const Navbar = () => {
             />
           </Link>
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            LL &nbsp;{" "}
-            <span className="sm:block hidden ">| liamricharddev7</span>
+            TV &nbsp; <span className="sm:block hidden ">| Tuan</span>
           </p>
         </div>
 

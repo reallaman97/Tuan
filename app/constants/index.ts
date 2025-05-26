@@ -97,10 +97,10 @@ const services = [
 
 const skills = {
   backend: [
+    "C# (ASP.NET)",
     "Node.js (TypeScript, JavaScript, Express.js)",
     "Java (Spring Boot)",
     "PHP (Laravel, CodeIgniter)",
-    "C# (ASP.NET)",
     "Python (Django, Flask, FastAPI)",
     "Go (Golang)",
     "gRPC",
@@ -119,9 +119,9 @@ const skills = {
     "CSS",
   ],
   cloud: [
+    "Microsoft Azure (App Service, Azure Functions, AKS)",
     "AWS (EC2, Lambda, S3, CloudWatch, ECS, Fargate)",
     "Google Firebase",
-    "Azure DevOps",
     "Docker",
     "Kubernetes",
     "Jenkins",
@@ -239,9 +239,9 @@ const testimonials = [
     id: 1,
     testimonial:
       "LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
-    name: "Liam Richard Lewis",
+    name: "Tuan Van Pham",
     image: "/socialmedia/linkedin.svg",
-    link: "https://www.linkedin.com/in/liam-lewis-a724ba328/",
+    link: "www.linkedin.com/in/tuan-van-pham-208a61367",
   },
 ];
 
