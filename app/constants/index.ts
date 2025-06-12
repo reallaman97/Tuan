@@ -155,7 +155,7 @@ const skills = {
 const experiences = [
   {
     title: "Senior .Net Full Stack Engineer",
-    company_name: "HCLTech",
+    company_name: "Zuva",
     icon: "/company/hcltech.ico",
     iconBg: "#383E56",
     date: "09/2021 -  current",
@@ -166,7 +166,7 @@ const experiences = [
   },
   {
     title: "Full Stack Developer",
-    company_name: "Cognizant",
+    company_name: "Sears",
     icon: "/company/cog.ico",
     iconBg: "#E6DEDD",
     date: "06/2017 - 08/2021",
@@ -177,7 +177,7 @@ const experiences = [
   },
   {
     title: "Front-end Developer",
-    company_name: "Globant",
+    company_name: "Innova Solutions",
     icon: "/company/3.png",
     iconBg: "#E6DEDD",
     date: "10/2015 - 05/2017",
